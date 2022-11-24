@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Censura</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             <input type="text" id="word" name="word" placeholder="Inserisci una parola">
             
             <br>
-            
+
             <button type="submit">Invia!</button>
 
             <button type="reset">Reset</button>
