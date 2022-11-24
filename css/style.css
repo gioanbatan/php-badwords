@@ -8,6 +8,77 @@ body {
     background-color: darkolivegreen;
 }
 
+html {
+    font-family: sans-serif;
+}
+
 .text-container {
+    width: 95%;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 5px 5px 1px #00000070;
     background-color: darksalmon;
+    border-radius: 15px 15px 15px 2px;
+}
+
+.text-container h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.text-container p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+label {
+    display: block;
+    padding-bottom: 0.6rem;
+}
+
+input,
+textarea {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: pink;
+    border: none;
+    box-shadow: 5px 5px 2px #ff000070;
+}
+
+textarea {
+    width: 100%;
+    max-width: 300px;
+    resize: none;
+    overflow-y: auto;
+}
+
+input {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 250px;
+}
+
+button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: pink;
+    background-color: brown;
+}
+
+@media screen and (min-width: 600px) {
+    .text-container {
+        width: 70%;
+    }
 }
