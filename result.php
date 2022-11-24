@@ -3,10 +3,12 @@ $user_text = $_GET['text'];
 $user_word = trim($_GET['word']);
 $censored_text = str_replace($user_word, "***", $user_text);
 
+echo "<pre>";
 echo "Debug: <br>";
 var_dump($user_text);
 echo "<br>";
 var_dump($user_word);
+echo "</pre>";
 ?>
 
 <!DOCTYPE html>
